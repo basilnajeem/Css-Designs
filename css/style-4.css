@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #000;
+}
+
+.container {
+	height: 70vh;
+	width: 70vh;
+	background-color: #fff;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.container .top {
+	position: relative;
+	height: 65%;
+	width: 100%;
+	background-color: #7ddffc;
+}
+.container .bottom {
+	position: relative;
+	height: 35%;
+	width: 100%;
+	background-color: #f0de75;
+}
+
+.container .top .pyramid-left {
+	position: absolute;
+	z-index: 4;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-70%);
+	height: 0;
+	width: 0;
+	border: 20vh solid transparent;
+	border-right: 8vh solid transparent;
+	border-bottom-color: #e1dfdf;
+}
+
+.container .top .pyramid-right {
+	position: absolute;
+	z-index: 3;
+	left: 50.5%;
+	bottom: 0;
+	transform: translateX(-50%);
+	height: 0;
+	width: 0;
+	border: 20vh solid transparent;
+	border-bottom-color: #78797e;
+}
+
+.container .top .sun {
+	position: absolute;
+	left: 10vh;
+	top: 10vh;
+	bottom: 0;
+	height: 10vh;
+	width: 10vh;
+	border-radius: 50%;
+	background-color: #ffef00;
+	box-shadow: 0.3vh 0.3vh 0.3vh #78797e;
+	transform-origin: 450% 150%;
+}
