@@ -16,10 +16,11 @@ The designs in this repository showcase various examples of simple CSS designs. 
 To explore the simple CSS designs:
 
 1. Clone the repository to your local machine using the command: `git clone` followed by http or ssh link.
-2. Open the project folder. 
-3. Navigate to the respective HTML files for each design. 
-4. Explore the code and CSS styles to understand how the designs were created. 
-5. Feel free to customize and adapt the designs to your own projects. 
-6. These simple CSS designs are intended to inspire creativity and serve as educational resources. They showcase how effective and visually appealing designs can be achieved using basic CSS techniques.       Enjoy experimenting and incorporating these designs into your own projects! 
+2. Alternatively, you can download the code as a ZIP file and extract it to your local machine.
+3. Open the project folder. 
+4. Navigate to the respective HTML files for each design. 
+5. Explore the code and CSS styles to understand how the designs were created. 
+6. Feel free to customize and adapt the designs to your own projects. 
+7. These simple CSS designs are intended to inspire creativity and serve as educational resources. They showcase how effective and visually appealing designs can be achieved using basic CSS techniques.       Enjoy experimenting and incorporating these designs into your own projects! 
 
 Happy coding 😊 
